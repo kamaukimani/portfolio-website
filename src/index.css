@@ -35,3 +35,33 @@
     cursor: pointer;
     
 }
+
+
+.footer {
+    background-color: #172033;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer nav,
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #38bdf8;
+}
+
+.footer p {
+    line-height: 1.6;
+}
+
