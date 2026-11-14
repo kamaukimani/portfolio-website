@@ -1,4 +1,5 @@
 import {Link,NavLink} from "react-router-dom"
+import Dark from './Dark'
 
 function NavBar(){
     return(
@@ -9,6 +10,7 @@ function NavBar(){
             <NavLink to='/projects'>Projects</NavLink>
             <NavLink to='/experience'>Experience</NavLink>
             <NavLink to='/contact'>Contact</NavLink>
+            <Dark />
         </div>
     )
 }
