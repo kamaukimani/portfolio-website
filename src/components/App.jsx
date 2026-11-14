@@ -16,8 +16,9 @@ function App(){
     function handleDarkMode(){
         setIsDark(isDark => !isDark)
     }
+    const isColor=isDark ? "white" : "black";
     return(
-        <>
+        <div style={{background:isColor}}>
             <NavBar isDark={isDark} onDarkMode={handleDarkMode}/>
             <Routes>
                 <Route
@@ -46,7 +47,7 @@ function App(){
                 />
             </Routes>
             
-        </>
+        </div>
     )
 }
 
