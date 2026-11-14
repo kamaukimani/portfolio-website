@@ -5,6 +5,8 @@ import NavBar from './NavBar'
 import Skills from './Skills'
 import Projects from './Projects'
 import Experience from './Experience'
+import Contact from './Contact'
+
 function App(){
     return(
         <>
@@ -29,6 +31,10 @@ function App(){
                 <Route 
                     path='/experience'
                     element={<Experience />}
+                />
+                <Route 
+                    path='/contact'
+                    element={<Contact />}
                 />
             </Routes>
             
