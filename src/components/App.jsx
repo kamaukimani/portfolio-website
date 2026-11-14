@@ -4,7 +4,7 @@ import {Routes,Route} from "react-router-dom"
 import NavBar from './NavBar'
 import Skills from './Skills'
 import Projects from './Projects'
-
+import Experience from './Experience'
 function App(){
     return(
         <>
@@ -25,6 +25,10 @@ function App(){
                 <Route 
                     path='/projects'
                     element={<Projects />}
+                />
+                <Route 
+                    path='/experience'
+                    element={<Experience />}
                 />
             </Routes>
             
