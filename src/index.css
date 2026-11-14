@@ -20,6 +20,7 @@
 }
 .color {
     color: blue;
+    text-align: center;
 }
 .color h1 {
     color:purple;
@@ -69,3 +70,20 @@
     line-height: 1.6;
 }
 
+.back-to-top {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #1d4ed8;
+}
+
+html {
+    scroll-behavior: smooth;
+}
