@@ -1,6 +1,6 @@
 function Experience(){
     return(
-        <article>
+        <article className="color">
             My education and work history
         </article>
     )

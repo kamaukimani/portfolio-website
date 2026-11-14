@@ -1,6 +1,6 @@
 function Contact(){
     return(
-        <header>
+        <header className="color">
             <h1>My email and social media links</h1>
         </header>
     )

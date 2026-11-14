@@ -1,6 +1,6 @@
 function Skills(){
     return (
-        <article>
+        <article className="color">
             My expertise and technologies i can work with
         </article>
     )

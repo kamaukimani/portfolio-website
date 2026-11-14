@@ -1,6 +1,6 @@
 function About(){
     return(
-        <article>
+        <article className="color">
             <h1>My background and story</h1>
         </article>
     )
