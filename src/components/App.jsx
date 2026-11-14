@@ -6,11 +6,19 @@ import Skills from './Skills'
 import Projects from './Projects'
 import Experience from './Experience'
 import Contact from './Contact'
+import React, {useState} from 'react'
+
 
 function App(){
+
+    const[isDark,setIsDark]=useState(false)
+
+    function handleDarkMode(){
+        setIsDark(isDark => !isDark)
+    }
     return(
         <>
-            <NavBar />
+            <NavBar isDark={isDark} onDarkMode={handleDarkMode}/>
             <Routes>
                 <Route
                     path="/"
