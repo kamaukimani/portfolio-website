@@ -6,7 +6,7 @@ function Home(){
        
     return(
         <main className="color">
-            <h1>Welcome to the Home page!!</h1>
+            <h1>Welcome to my Portfolio-Website...</h1>
             <br/>
             <div id="home">
                 <p>
