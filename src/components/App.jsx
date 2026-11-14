@@ -7,6 +7,7 @@ import Projects from './Projects'
 import Experience from './Experience'
 import Contact from './Contact'
 import React, {useState} from 'react'
+import Footer from './Footer'
 
 
 function App(){
@@ -46,6 +47,8 @@ function App(){
                     element={<Contact />}
                 />
             </Routes>
+            <br/>
+            <Footer/>
             
         </div>
     )
