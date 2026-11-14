@@ -21,6 +21,10 @@
 .color {
     color: blue;
 }
+.color h1 {
+    color:purple;
+    text-align: center;
+}
 #home {
     text-align: center;
 }
