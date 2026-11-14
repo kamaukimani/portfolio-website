@@ -2,6 +2,7 @@ import Home from "./Home"
 import About from './About'
 import {Routes,Route} from "react-router-dom"
 import NavBar from './NavBar'
+import Skills from './Skills'
 
 function App(){
     return(
@@ -16,7 +17,12 @@ function App(){
                     path='/about'
                     element={<About />}
                 />
+                <Route 
+                    path='/skills'
+                    element={<Skills />}
+            />
             </Routes>
+            
         </>
     )
 }
