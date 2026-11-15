@@ -10,7 +10,7 @@ function Home(){
             <br/>
             <div id="home">
                 <p>
-                Hello, I'm Paul Kamau.
+                Hello, I'm Paul Kamau Kimani.
                 </p>
                 <p >
                     I'm a Full-Stack Developer who loves understanding how things work<br/>

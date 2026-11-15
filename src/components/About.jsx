@@ -3,7 +3,7 @@ function About(){
         <article className="color">
             <h1 id="top">About Me</h1>
             <p>
-                I'm Paul Kamau , a Full-Stack Developer devoted in understanding how <br />
+                I'm Paul Kimani , a Full-Stack Developer devoted in understanding how <br />
                 <br/>
                 software works and building solutions to real-world problems.
             </p>
