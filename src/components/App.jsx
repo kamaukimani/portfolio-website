@@ -8,6 +8,7 @@ import Experience from './Experience'
 import Contact from './Contact'
 import React, {useState} from 'react'
 import Footer from './Footer'
+import Ami from './Ami'
 
 
 function App(){
@@ -45,6 +46,10 @@ function App(){
                 <Route 
                     path='/contact'
                     element={<Contact />}
+                />
+                <Route 
+                    path='/ami'
+                    element={<Ami />}
                 />
             </Routes>
             <br/>
