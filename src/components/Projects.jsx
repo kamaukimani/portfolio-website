@@ -1,7 +1,7 @@
 function Projects(){
     return(
         <main className="color">
-            <h2>My some of my best works and their images</h2>
+            <h2>Some of my best works and their images</h2>
 
                 <p className="project-intro">
                     These projects showcase my experience in building full-stack
