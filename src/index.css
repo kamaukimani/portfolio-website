@@ -49,6 +49,9 @@
     text-align: center;
 }
 
+.footer {
+    height: 170px;
+}
 .footer nav,
 .social-links {
     display: flex;
