@@ -5,7 +5,7 @@ function Projects(){
             <main className="mainp">
                 <div>
                     <div>
-                        <h3>Pesa-Tracker Mobile Project</h3>
+                        <h3>Pesa-Tracker Mobile Application</h3>
                         <div className="imageT">                        
                             <img src="/t1.jpeg" alt="image 1" />
                             <img src="/t2.jpeg" alt="image 1" />
