@@ -13,7 +13,7 @@ import Ami from './Ami'
 
 function App(){
 
-    const[isDark,setIsDark]=useState(false)
+    const[isDark,setIsDark]=useState(true)
 
     function handleDarkMode(){
         setIsDark(isDark => !isDark)
