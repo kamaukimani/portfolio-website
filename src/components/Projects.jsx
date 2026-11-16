@@ -76,9 +76,9 @@ function Projects(){
                             <em className="em">The data used in this blog-pay-wall application is for testing purposes only.</em><br/>
                            This is a Full-Stack project. The application alllows site visitors to view Blog posts. If a user doesnt have an account
                            , they can view a maximum of three blog posts.<br/>
-                           After that, they receive this error :<em className="em">You've reached your limit for free articles! Create an account to
+                           After that, they receive this error message: <em className="em">You've reached your limit for free articles! Create an account to
                             see more great content.</em> When they create an account they can now view all articles.<br/>
-                            Furthermore they can also view  <strong>Menber-Only-Content</strong>.
+                            Furthermore they can also view  <strong>Member-Only-Content</strong>.
 
                         </p>
                         <a href="https://github.com/kamaukimani/blog-pay-wall"
