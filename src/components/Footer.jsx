@@ -11,6 +11,13 @@ function Footer(){
                     >
                     <img src="/github.png" alt="github" height="30" width="30"/>
                 </a>
+                <a  
+                     href="https://www.linkedin.com/in/paul-kimani-222a29338/"
+                     target="_blank"
+                     rel="noopener noreffer"
+                    >
+                   <img src="/linkedin.jpeg" alt="LinkedIn" height="30" width="30" />
+                </a>
             </nav>
             <p>
                 &copy; 2026 Paul Kimani.
